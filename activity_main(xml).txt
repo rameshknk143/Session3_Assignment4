@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ramesh.bundleexa.MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/images"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <EditText
+        android:layout_width="250dp"
+        android:background="#69F0AE"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Login Name"
+        android:id="@+id/urname"
+        android:padding="10dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="#69F0AE"
+        android:inputType="phone"
+        android:hint="Enter Your Login Password"
+        android:id="@+id/urpass"
+        android:padding="10dp"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/login"
+        android:onClick="button"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
